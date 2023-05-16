@@ -1,1 +1,50 @@
-csp1.css
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #A6E1C1;
+}
+
+h1, .navbar-brand{
+	font-weight: bold;
+}
+
+#motivation{
+	font-style: italic;
+}
+
+#projects{
+	background-color: #436A78;
+}
+
+#projects-title, #contact-title, .card-title, .card-subtitle, .tools-title{
+	font-weight: bolder;
+}
+
+.card-title, .card-subtitle{
+	padding-bottom: 1rem;
+}
+
+#contact{
+	background-color: #A3DAC6;
+}
+
+.form-color{
+	background-color: #2F4858;
+}
+
+#tools{
+	background-color: #006E6E;
+}
+
+.tools-container{
+	background-color: #7BB4AF;
+}
