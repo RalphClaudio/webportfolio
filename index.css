@@ -13,7 +13,7 @@ body{
 	background-color: #A6E1C1;
 }
 
-h1, .navbar-brand{
+h1, .navbar-brand, .btn, .contact-related{
 	font-weight: bold;
 }
 

@@ -32,17 +32,21 @@
 			<!-- NavCollapse -->
 			 <div class="collapse navbar-collapse" id="navbarNav">
 			  <ul class="navbar-nav text-center ml-lg-auto">
+			  	<li class="nav-item mr-lg-5">
+			      <a href="#about-me" class="text-white nav-link">
+				    About Me</a>
+			    </li>
 			    <li class="nav-item mr-lg-5">
 			      <a href="#projects" class="text-white nav-link">
 				    Projects</a>
 			    </li>
 			    <li class="nav-item mr-lg-5">
-			      <a href="#contact" class="text-white nav-link">
-				    Contact Me</a>
-			    </li>
-			    <li class="nav-item mr-lg-5">
 			      <a href="#tools" class="text-white nav-link">
 				    Tools</a>
+			    </li>
+			    <li class="nav-item mr-lg-5">
+			      <a href="#contact" class="text-white nav-link">
+				    Contact</a>
 			    </li>
 			  </ul>
 			 </div>
@@ -56,214 +60,53 @@
 			<div class="row">
 			  <!-- Landing -->
 				<!-- Introduction Container -->
-				 <div class="col-lg-9 p-0" id="landing">
+				 <div class="col-lg-12 p-0 mt-lg-5 min-vh-100" id="landing">
 
 				 	<!-- Landing -->
-				 	
 				 	<div class="p-5 container-fluid">
 				 		 <img class="m-5 rounded-circle" src="./images/me.jpg" alt="my photo">
 				 		 <h1>Ralph Christian Claudio</h1>
 				 		 <h3>Full-Stack Developer</h3>
-				 		 <div class="row p-5">
-				 		 	<div class="offset-md-2 col-md-8" id="motivation">
-				 		 		<p>I would want to be more knowledgeable in programming especially since I don't have any Specialization yet when it comes to programming, so learning more about Web Development is a great motivation for me as my first specialization in programming.</p>
-				 		 	</div>
-				 		 </div>
 				 	</div>
 				 	<!-- End of Landing -->
 
 				 </div>
 				<!-- End of Introduction Container -->
 
-			  <!-- About Me - Sidebar -->
-				<!-- Sidebar Container -->
-				 <div class="card bg-secondary col-lg-3 d-lg-block p-0 mt-lg-5 rounded-0 border-0">
+			  <!-- About Me -->
+				<!-- Container -->
+				 <div class="card bg-secondary col-lg-12 d-lg-block p-0 rounded-0 container-fluid" id="about-me">
 				 	<div class="accordion" id="accordionExample">
 
-				 	  <!-- Personal Information Container -->
-				 	  <div class="card bg-secondary">
+				 	  <!-- About Me Container -->
+				 	   <div class="card bg-dark m-5">
 				 	    <div class="card-header" id="headingOne">
 				 	      <h2 class="mb-0">
-				 	        <button class="btn btn-light btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-				 	          Personal Information
+				 	        <button class="btn btn-light btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+				 	          About Me
 				 	        </button>
 				 	      </h2>
 				 	    </div>
 
-				 	    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-				 	      <div class="card-body">
-				 	        <!-- Personal Information -->
-	        				 <table class="table-responsive table-dark d-flex justify-content-around table-bordered border">
-	        				 	<tbody>
-	        				 		<tr> <!-- Age -->
-	        				 			<td>
-	        				 				<p>Age:</p>
-	        				 			</td>
-	        				 			<td >
-	        				 				<p>26 Years Old</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 		<tr> <!-- Address -->
-	        				 			<td>
-	        				 				<p>Home Address:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>Plaridel, Bulacan</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 		<tr> <!-- Status -->
-	        				 			<td>
-	        				 				<p>Status:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>In a Relationship</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 		<tr> <!-- Gender -->
-	        				 			<td>
-	        				 				<p>Gender:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>Male</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 	</tbody>
-	        				 	
-	        				 </table>
-	        				<!-- End of Personal Information -->
-				 	      </div>
-				 	    </div>
-				 	  </div>
-				 	  <!-- End of Personal Information Container-->
+				 	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				 	      <div class="card-body min-vh-100 d-flex align-items-center">
+				 	      	<div>
+	        				 <p id="motivation" class="offset-md-3 col-md-6 text-light p-5">I would want to be more knowledgeable in programming especially since I don't have any Specialization yet when it comes to programming, so learning more about Web Development is a great motivation for me as my first specialization in programming.</p>
 
-				 	  <!-- Contact Informtion Container -->
-				 	  <div class="card bg-secondary">
-				 	    <div class="card-header" id="headingTwo">
-				 	      <h2 class="mb-0">
-				 	        <button class="btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-				 	          Contact Information
-				 	        </button>
-				 	      </h2>
-				 	    </div>
-				 	    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-				 	      <div class="card-body">
-				 	        <!-- Contact Information -->
-	        				 <table class="table-responsive table-dark d-flex justify-content-around table-bordered border">
-	        				 	<tbody>
-	        				 		<tr> <!-- Mobile number -->
-	        				 			<td>
-	        				 				<p>Mobile Phone Number:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>09430974177</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 		<tr> <!-- Email Address -->
-	        				 			<td>
-	        				 				<p>Email Address:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>ralphclaudio@gmail.com</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 	</tbody>
-	        				 	
-	        				 </table>
-	        				<!-- End of Contact Information -->
+	        				 <h3 class="text-light contact-related">Want to know more?</h3>
+	        				 <button type="button" class="btn btn-light">
+	        				 	<a href="#contact" class="text-dark">Contact Me!</a>
+				 		 	 </button>
+				 	      	</div>
+				 	        
 				 	      </div>
 				 	    </div>
-				 	  </div>
-				 	  <!-- End of Contact Informtion Container -->
-
-				 	  <!-- Educational Background Container -->
-				 	  <div class="card bg-secondary">
-				 	    <div class="card-header" id="headingThree">
-				 	      <h2 class="mb-0">
-				 	        <button class="btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-				 	          Educational Background
-				 	        </button>
-				 	      </h2>
-				 	    </div>
-				 	    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-				 	      <div class="card-body">
-				 	        <!-- Educational Background -->
-	        				 <table class="table-responsive table-dark d-flex justify-content-around table-bordered border">
-	        				 	<tbody>
-	        				 		<tr> <!-- Tertiary Level -->
-	        				 			<td>
-	        				 				<p>College:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>Bulacan State University</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 		<tr> <!-- Secondary Level -->
-	        				 			<td>
-	        				 				<p>Highschool:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>Jesus Is Lord Colleges Foundation</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 		<tr> <!-- Primary Level -->
-	        				 			<td>
-	        				 				<p>Elementary:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>Jesus Is Lord Colleges Foundation</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 	</tbody>
-	        				 	
-	        				 </table>
-	        				<!-- End of Educational Background -->
-				 	      </div>
-				 	    </div>
-				 	  </div>
-				 	  <!-- End of Educational Background Container -->
-
-				 	  <!-- Skills Container -->
-				 	  <div class="card bg-secondary">
-				 	    <div class="card-header" id="headingFour">
-				 	      <h2 class="mb-0">
-				 	        <button class="btn btn-light btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-				 	          Skills
-				 	        </button>
-				 	      </h2>
-				 	    </div>
-				 	    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-				 	      <div class="card-body">
-				 	        <!-- Skills -->
-	        				 <table class="table-responsive table-dark d-flex justify-content-around table-bordered border">
-	        				 	<tbody>
-	        				 		<tr> <!-- Programming Languages -->
-	        				 			<td>
-	        				 				<p>Programming Languages:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>C++, Python, HTML5, Bootstrap, CSS, Javascript</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 		<tr> <!-- Languages -->
-	        				 			<td>
-	        				 				<p>Languages:</p>
-	        				 			</td>
-	        				 			<td>
-	        				 				<p>Filipino, English</p>
-	        				 			</td>
-	        				 		</tr>
-	        				 	</tbody>
-	        				 	
-	        				 </table>
-	        				<!-- End of Skills -->
-				 	      </div>
-				 	    </div>
-				 	  </div>
-				 	  <!-- End of Skills Container -->
+				 	   </div>
+				 	  <!-- End of About Me Container-->
 
 				 	</div>
 				 </div>
-				<!-- End of Sidebar Container -->
+				<!-- End of Container -->
 
 			  <!-- Projects -->
 				<!-- Projects Container -->
@@ -315,88 +158,7 @@
 					 </div>
 					<!-- End of Projects Row -->
 				 </div>
-				<!-- End of Projects Container -->
-
-			  <!-- Contact Me -->
-				<!-- Contact Me Container -->
-				 <div class="col-12 p-0" id="contact">
-				 	<div class="text-light p-5">
-				 		<h2 id="contact-title" class="text-dark">Contact Me</h2>
-
-				 		<!-- Contact Me Column -->
-				 		 <div class="text-light d-flex flex-column align-items-center p-3">
-				 		 	<div class="form-color text-light col-12 col-md-8 col-xl-4 rounded">
-				 		 		<form class="text-light p-3">
-				 		 		  <!-- Name -->
-				 		 		  <div class="form-group">
-				 		 		    <label for="name">Name</label>
-				 		 		    <input type="text" class="form-control" id="name" placeholder="Name">
-				 		 		  </div>
-
-				 		 		  <!-- Email -->
-				 		 		  <div class="form-group">
-				 		 		    <label for="email-input">Email address</label>
-				 		 		    <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="example@email.com">
-				 		 		  </div>
-
-				 		 		  <!-- Contact Number -->
-				 		 		  <div class="form-group">
-				 		 		    <label for="contact-number">Contact Number</label>
-				 		 		    <input type="text" class="form-control" id="contact-number" placeholder="09123456789">
-				 		 		  </div>
-
-				 		 		  <!-- Concern -->
-				 		 		  <div class="form-group">
-				 		 		      <label for="exampleFormControlSelect1">Inquiry Type</label>
-				 		 		      <select class="form-control" id="exampleFormControlSelect1">
-				 		 		      	<option></option>
-				 		 		        <option>General Question</option>
-				 		 		        <option>Troubleshoot</option>
-				 		 		        <option>Software Programming</option>
-				 		 		        <option>Arduino Programming</option>
-				 		 		        <option>Web Development - Front-End</option>
-				 		 		      </select>
-				 		 		  </div>
-
-				 		 		  <!-- Message Area -->
-				 		 		  <div class="form-group">
-				 		 		      <label for="exampleFormControlTextarea1">Message</label>
-				 		 		      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-				 		 		    </div>
-
-				 		 		  <!-- Button - type="button" does not recognize required for input forms, submit must be used -->
-				 		 		  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Modal">
-				 		 		    Send
-				 		 		  </button>
-
-				 		 		</form>
-				 		 	</div>
-				 		 </div>
-				 		<!-- End Contact Me Column -->
-				 		<!-- Modal - pop-up message for button -->
-	 		 	 		  <div class="modal fade text-dark" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-	 		 	 		    <div class="modal-dialog modal-dialog-centered">
-	 		 	 		      <div class="modal-content">
-	 		 	 		        <div class="modal-header">
-	 		 	 		          <h5 class="modal-title" id="ModalLabel">Message Successfully Sent!</h5>
-	 		 	 		          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	 		 	 		            <span aria-hidden="true">&times;</span>
-	 		 	 		          </button>
-	 		 	 		        </div>
-	 		 	 		        <div class="modal-body">
-	 		 	 		          We will contact you after processing your inquiry.
-	 		 	 		        </div>
-	 		 	 		        <div class="modal-footer">
-	 		 	 		          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-	 		 	 		        </div>
-	 		 	 		      </div>
-	 		 	 		    </div>
-	 		 	 		  </div>
-	 		 	 		<!-- End of Modal -->
-
-				 	</div>
-				 </div>
-				<!-- End of Contact Me Container -->
+				<!-- End of Projects Container --> 
 
 			  <!-- Tools -->
 			   <!-- Tools Container -->
@@ -501,6 +263,87 @@
 				 	
 				 </div>
 			   <!-- End of Tools Container -->
+
+			  <!-- Contact Me -->
+				<!-- Contact Me Container -->
+				 <div class="col-12 p-0" id="contact">
+				 	<div class="text-light p-5">
+				 		<h2 id="contact-title" class="text-dark">Contact Me</h2>
+
+				 		<!-- Contact Me Column -->
+				 		 <div class="text-light d-flex flex-column align-items-center p-3">
+				 		 	<div class="form-color text-light col-12 col-md-8 col-xl-4 rounded">
+				 		 		<form class="text-light p-3">
+				 		 		  <!-- Name -->
+				 		 		  <div class="form-group">
+				 		 		    <label for="name">Name</label>
+				 		 		    <input type="text" class="form-control" id="name" placeholder="Name">
+				 		 		  </div>
+
+				 		 		  <!-- Email -->
+				 		 		  <div class="form-group">
+				 		 		    <label for="email-input">Email address</label>
+				 		 		    <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" placeholder="example@email.com">
+				 		 		  </div>
+
+				 		 		  <!-- Contact Number -->
+				 		 		  <div class="form-group">
+				 		 		    <label for="contact-number">Contact Number</label>
+				 		 		    <input type="text" class="form-control" id="contact-number" placeholder="09123456789">
+				 		 		  </div>
+
+				 		 		  <!-- Concern -->
+				 		 		  <div class="form-group">
+				 		 		      <label for="exampleFormControlSelect1">Inquiry Type</label>
+				 		 		      <select class="form-control" id="exampleFormControlSelect1">
+				 		 		      	<option></option>
+				 		 		        <option>General Question</option>
+				 		 		        <option>Troubleshoot</option>
+				 		 		        <option>Software Programming</option>
+				 		 		        <option>Arduino Programming</option>
+				 		 		        <option>Web Development - Front-End</option>
+				 		 		      </select>
+				 		 		  </div>
+
+				 		 		  <!-- Message Area -->
+				 		 		  <div class="form-group">
+				 		 		      <label for="exampleFormControlTextarea1">Message</label>
+				 		 		      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				 		 		    </div>
+
+				 		 		  <!-- Button - type="button" does not recognize required for input forms, submit must be used -->
+				 		 		  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Modal">
+				 		 		    Send
+				 		 		  </button>
+
+				 		 		</form>
+				 		 	</div>
+				 		 </div>
+				 		<!-- End Contact Me Column -->
+				 		<!-- Modal - pop-up message for button -->
+	 		 	 		  <div class="modal fade text-dark" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+	 		 	 		    <div class="modal-dialog modal-dialog-centered">
+	 		 	 		      <div class="modal-content">
+	 		 	 		        <div class="modal-header">
+	 		 	 		          <h5 class="modal-title" id="ModalLabel">Message Successfully Sent!</h5>
+	 		 	 		          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	 		 	 		            <span aria-hidden="true">&times;</span>
+	 		 	 		          </button>
+	 		 	 		        </div>
+	 		 	 		        <div class="modal-body">
+	 		 	 		          We will contact you after processing your inquiry.
+	 		 	 		        </div>
+	 		 	 		        <div class="modal-footer">
+	 		 	 		          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	 		 	 		        </div>
+	 		 	 		      </div>
+	 		 	 		    </div>
+	 		 	 		  </div>
+	 		 	 		<!-- End of Modal -->
+
+				 	</div>
+				 </div>
+				<!-- End of Contact Me Container -->
 
 			</div>
 		 </div>
