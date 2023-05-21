@@ -164,13 +164,18 @@ div h1, div h3{
 
 
 /* Projects Hover Effect */
-.card-body img {
-	width: 100%;
+#projects .card-body {
+    box-shadow: 5px 5px 20px black;
+    transform: scale(0.9);
 }
 
+#projects .card-body:hover {
+    transform: scale(1.0);
+    transition: 0.5s;
+}
 
-/* Letter Animation scroll */
-@keyframes scroll {
-	0% { transform: translateX(-1200px) scale(1); }
-	100% { transform: translateX(0px) scale(1); }
+/* Links hover */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
 }
