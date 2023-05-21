@@ -142,7 +142,7 @@ h1::after {
 .myphoto {
 	animation: fade-down 10s;
 }
-#landing > div > h1, #landing > div > h3{
+.main-land > h1, .main-land > h3{
 	animation: fade-up 10s;
 }
 @keyframes fade-down {
