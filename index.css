@@ -71,15 +71,18 @@ h1, .navbar-brand, .btn, .contact-related{
 @keyframes intro {
 	0% { opacity: 1 }
 	50% { opacity: 1 }
+	75% { opacity: 0 }
 	100% { opacity: 0}
 }
 
 
-/* Shake Cracked Effect Opening */
+/* Glitch Cracked Effect Opening */
 .welcome {
 	font-weight: 800;
 	position: relative;
 	white-space: nowrap;
+    text-shadow: 0 0 0.15em #1da9cc;
+    animation: glitch 2s linear infinite;
 }
 h1 span {
 	position: absolute;
@@ -107,7 +110,7 @@ h1::after {
             clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
 }
 @keyframes crack1 {
-    0%, 95% {
+    0%, 70%, 95% {
         transform: translate(-50%, -50%);
     }
 
@@ -116,11 +119,59 @@ h1::after {
     }
 }
 @keyframes crack2 {
-    0%, 95% {
+    0%, 70%, 95% {
         transform: translate(-50%, -50%);
     }
 
     100% {
         transform: translate(-30%, -69%);
     }
+}
+/* Glitch Effect */
+@keyframes glitch {
+  1%{
+    transform: rotateX(10deg) skewX(90deg);
+  }
+  2%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+
+/* Fade Up-Down Landing */
+.myphoto {
+	animation: fade-down 10s;
+}
+div h1, div h3{
+	animation: fade-up 10s;
+}
+@keyframes fade-down {
+	0% { opacity: 0;
+		 transform: translateY(-150px) scale(1); }
+	50% { opacity: 0;
+		 transform: translateY(-100px) scale(1); }
+	100% { opacity: 1;
+		   transform: translateY(0px) scale(1); }
+}
+@keyframes fade-up {
+	0% { opacity: 0;
+		 transform: translateY(150px) scale(1); }
+	50% { opacity: 0;
+		 transform: translateY(100px) scale(1); }
+	100% { opacity: 1;
+		   transform: translateY(0px) scale(1); }
+}
+
+
+/* Projects Hover Effect */
+.card-body img {
+	width: 100%;
+}
+@keyframes
+
+
+/* Letter Animation scroll */
+@keyframes scroll {
+	0% { transform: translateX(-1200px) scale(1); }
+	100% { transform: translateX(0px) scale(1); }
 }
