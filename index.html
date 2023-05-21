@@ -60,11 +60,17 @@
 			<div class="row">
 			  <!-- Landing -->
 				<!-- Introduction Container -->
-				 <div class="col-lg-12 p-0 mt-lg-5 min-vh-100" id="landing">
+				 <div class="col-lg-12 p-0 mt-lg-5 min-vh-100 d-flex align-items-center" id="landing">
+
+				 	<!-- Opening Page -->
+				 	 <div class="col-lg-12 p-0 mt-lg-5 min-vh-100 d-flex justify-content-center align-items-center opening bg-dark">
+				 	 	<h1 class="text-light display-1 welcome" data-text="W E L C O M E"><span class="open-text">W E L C O M E</span></h1>
+				 	 </div>
+				 	<!-- End of Opening Page -->
 
 				 	<!-- Landing -->
 				 	<div class="p-5 container-fluid">
-				 		 <img class="m-5 rounded-circle" src="./images/me.jpg" alt="my photo">
+				 		 <img class="m-5 rounded-circle myphoto" src="./images/me.jpg" alt="my photo">
 				 		 <h1>Ralph Christian Claudio</h1>
 				 		 <h3>Full-Stack Developer</h3>
 				 	</div>
@@ -91,11 +97,11 @@
 				 	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 				 	      <div class="card-body min-vh-100 d-flex align-items-center">
 				 	      	<div>
-	        				 <p id="motivation" class="offset-md-3 col-md-6 text-light p-5">I would want to be more knowledgeable in programming especially since I don't have any Specialization yet when it comes to programming, so learning more about Web Development is a great motivation for me as my first specialization in programming.</p>
+	        				 <p id="motivation" class="offset-md-3 col-md-6 text-light p-5 screeneffect">I would want to be more knowledgeable in programming especially since I don't have any Specialization yet when it comes to programming, so learning more about Web Development is a great motivation for me as my first specialization in programming.</p>
 
-	        				 <h3 class="text-light contact-related">Want to know more?</h3>
+	        				 <h3 class="text-light contact-related pulse">Want to know more?</h3>
 	        				 <button type="button" class="btn btn-light">
-	        				 	<a href="#contact" class="text-dark">Contact Me!</a>
+	        				 	<a href="#contact" class="text-dark pulse">Contact Me!</a>
 				 		 	 </button>
 				 	      	</div>
 				 	        
@@ -122,7 +128,7 @@
 		 		 	 	 	  	<img src="./images/pokemon-tcg-logo.png" class="img-fluid p-3">
 		 		 	 	 	    <h5 class="card-title">Thesis Prototype</h5>
 		 		 	 	 	    <h6 class="card-subtitle mb-2 text-dark">Automated Pokemon TCG Augmented Reality</h6>
-		 		 	 	 	    <p class="card-text">A device for Automated Pokemon TCG with hologram pyramid. It uses RFID scanner, and RFID cards with data of each Pokemon TCG cards from 2-Player Starter Set. With the device, players can play the normal format rule in Pokemon TCG.</p>
+		 		 	 	 	    <p class="card-text d-none d-md-block">A device for Automated Pokemon TCG with hologram pyramid. It uses RFID scanner, and RFID cards with data of each Pokemon TCG cards from 2-Player Starter Set. With the device, players can play the normal format rule in Pokemon TCG.</p>
 		 		 	 	 	    <p>Role: Computer Programmer and Hardware Networking</p>
 		 		 	 	 	    <p>Technologies used: PyCharm, Raspberry Pi, Arduino, RFIDs</p>
 		 		 	 	 	  </div>
@@ -135,7 +141,7 @@
 		 		 	 	 	  	<img src="./images/barcode-inventory.jpg" class="img-fluid p-3">
 		 		 	 	 	    <h5 class="card-title">Android Application Development</h5>
 		 		 	 	 	    <h6 class="card-subtitle mb-2 text-dark">Barcode Reader Inventory Management Application</h6>
-		 		 	 	 	    <p class="card-text">A software that can be used to scan the barcode of an item/product and then input some details. Clicking the Add Item button will input the data into the database. It can also view the items/products in the database to review the items and see the number of products still available.</p>
+		 		 	 	 	    <p class="card-text d-none d-md-block">A software that can be used to scan the barcode of an item/product and then input some details. Clicking the Add Item button will input the data into the database. It can also view the items/products in the database to review the items and see the number of products still available.</p>
 		 		 	 	 	    <p>Role: Computer Programmer</p>
 		 		 	 	 	    <p>Technologies used: Android Studio, MySQL, PHP, Excel</p>
 		 		 	 	 	  </div>
@@ -148,7 +154,7 @@
 		 		 	 	 	  	<img src="./images/capstone1.jpg" class="img-fluid p-3">
 		 		 	 	 	    <h5 class="card-title">Front-End Development</h5>
 		 		 	 	 	    <h6 class="card-subtitle mb-2 text-dark">Capstone 1</h6>
-		 		 	 	 	    <p class="card-text">I applied everything I learned from the previous weeks into creating my very first front-end web page.</p>
+		 		 	 	 	    <p class="card-text d-none d-md-block">I applied everything I learned from the previous weeks into creating my very first front-end web page.</p>
 		 		 	 	 	    <p>Role: Front-End Developer</p>
 		 		 	 	 	    <p>Technologies used: Sublime Text 3, Bootstrap, CSS, GitLab</p>
 		 		 	 	 	  </div>
@@ -266,7 +272,7 @@
 
 			  <!-- Contact Me -->
 				<!-- Contact Me Container -->
-				 <div class="col-12 p-0" id="contact">
+				 <div class="col-12 p-0 min-vh-100" id="contact">
 				 	<div class="text-light p-5">
 				 		<h2 id="contact-title" class="text-dark">Contact Me</h2>
 
