@@ -59,24 +59,28 @@
 		<!-- End of Navbar -->
 
 		<!-- Webpage Content -->
-		 <div class="container-fluid text-center text-dark">
+		 <div class="container-fluid text-center">
 			<div class="row">
 			  <!-- Landing -->
 				<!-- Introduction Container -->
 				 <div class="col-lg-12 p-0 mt-lg-5 min-vh-100 d-flex align-items-center" id="landing">
-
 				 	<!-- Opening Page -->
-				 	 <div class="col-lg-12 p-0 min-vh-100 d-flex justify-content-center align-items-center opening bg-dark">
+				 	 <div class="col-lg-12 p-0 min-vh-100 d-flex justify-content-center align-items-center opening">
 				 	 	<h1 class="text-light welcome" data-text="W E L C O M E"><span>W E L C O M E</span></h1>
 				 	 </div>
 				 	<!-- End of Opening Page -->
 
+
+				 	<div class="landing-bg container-fluid"></div>
 				 	<!-- Landing -->
-				 	 <div class="p-5 container-fluid main-land">
-				 		 <img class="m-5 rounded-circle myphoto" src="./images/me.jpg" alt="my photo">
-				 		 <h1>Ralph Christian Claudio</h1>
-				 		 <h3>Full-Stack Developer</h3>
+				 	 <div class="p-5 container-fluid main-container">
+				 	 	 <div class="main-land">
+				 	 		 <img class="m-5 rounded-circle myphoto" src="./images/me.jpg" alt="my photo">
+				 	 		 <h1>Ralph Christian Claudio</h1>
+				 	 		 <h3>Full-Stack Developer</h3>
+				 	 	 </div>
 				 	 </div>
+				 	 
 				 	<!-- End of Landing -->
 
 				 </div>
@@ -88,10 +92,10 @@
 				 	<div class="accordion" id="accordionExample">
 
 				 	  <!-- About Me Container -->
-				 	   <div class="card bg-dark m-5">
+				 	   <div class="card bg-dark mt-5 mb-5 m-md-5">
 				 	    <div class="card-header" id="headingOne">
 				 	      <h2 class="mb-0">
-				 	        <button class="btn btn-light btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+				 	        <button class="btn btn-light btn-block text-center card-btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 				 	          About Me
 				 	        </button>
 				 	      </h2>
@@ -99,8 +103,8 @@
 
 				 	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 				 	      <div class="card-body min-vh-100 d-flex align-items-center">
-				 	      	<div>
-	        				 <p id="motivation" class="offset-md-3 col-md-6 text-light p-5">I would want to be more knowledgeable in programming especially since I don't have any Specialization yet when it comes to programming, so learning more about Web Development is a great motivation for me as my first specialization in programming.</p>
+				 	      	<div class="background-image pb-5">
+	        				 <p id="motivation" class="offset-md-3 col-md-6 text-light p-5">I would want to be more knowledgeable in programming especially since I don't have any specialization yet when it comes to coding, so learning more about Web Development is a great motivation for me as my first specialization.</p>
 
 	        				 <h3 class="text-light contact-related pulse">Want to know more?</h3>
 	        				 <button type="button" class="btn btn-light">
@@ -122,9 +126,9 @@
 				 <div class="col-12 p-0" id="projects">
 
 					<!-- Projects Row -->
-					 <div class="text-light p-5">
+					 <div class="text-light p-3 pt-5 pb-5 p-md-5">
 						<h2 class="mb-3 text-light" id="projects-title">Projects</h2>
-						<div class="d-lg-flex justify-content-center m-5">
+						<div class="d-lg-flex justify-content-center m-md-5">
 							<!-- Thesis Prototype Card -->
 		 		 	 	 	 <div class="card bg-secondary col-lg-4 mb-5 mb-lg-0 mr-5">
 		 		 	 	 	  <div class="card-body">
@@ -140,7 +144,7 @@
 
 			 		 	 	<!-- Barcode Reader Inventory Card -->
 		 		 	 	 	 <div class="card bg-secondary col-lg-4 mb-5 mb-lg-0 mr-5">
-		 		 	 	 	  <div class="card-body">
+		 		 	 	 	  <div class="card-body try">
 		 		 	 	 	  	<img src="./images/barcode-inventory.jpg" class="img-fluid p-3">
 		 		 	 	 	    <h4 class="card-title">Android Application Development</h4>
 		 		 	 	 	    <h5 class="card-subtitle mb-2 text-dark">Barcode Reader Inventory Management Application</h5>
@@ -153,7 +157,7 @@
 
 			 		 	 	<!-- Capstone 1 Card -->
 		 		 	 	 	 <div class="card bg-secondary col-lg-4 mb-5 mb-lg-0">
-		 		 	 	 	  <div class="card-body">
+		 		 	 	 	  <div class="card-body try">
 		 		 	 	 	  	<img src="./images/capstone1.jpg" class="img-fluid p-3">
 		 		 	 	 	    <h4 class="card-title">Front-End Development</h4>
 		 		 	 	 	    <h5 class="card-subtitle mb-2 text-dark">Capstone 1</h5>
@@ -275,13 +279,13 @@
 
 			  <!-- Contact Me -->
 				<!-- Contact Me Container -->
-				 <div class="col-12 p-0 container-fluid" id="contact">
-				 	<div class="text-light p-5">
+				 <div class="col-12 p-5 p-md-0 container-fluid" id="contact">
+				 	<div class="text-light p-md-5">
 				 		<h2 id="contact-title" class="text-dark">Contact Me</h2>
 
 				 		<!-- Contact Me Column -->
 				 		 <div class="text-light d-flex flex-column align-items-center p-3">
-				 		 	<div class="form-color text-light col-12 col-md-8 col-xl-4 rounded">
+				 		 	<div class="form-color text-light col-11 col-md-6 col-lg-4 rounded">
 				 		 		<form class="text-light p-3">
 				 		 		  <!-- Name -->
 				 		 		  <div class="form-group">
