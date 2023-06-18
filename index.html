@@ -21,6 +21,7 @@
 		<title>Capstone 1</title>
 	</head>
 	<body>
+	 <div>
 
 		<!-- Navbar -->
 		 <nav class="navbar bg-dark fixed-top navbar-expand-lg navbar-dark pt-1 pb-1">
@@ -59,19 +60,19 @@
 		<!-- End of Navbar -->
 
 		<!-- Webpage Content -->
-		 <div class="container-fluid text-center">
-			<div class="row">
-			  <!-- Landing -->
-				<!-- Introduction Container -->
-				 <div class="col-lg-12 p-0 mt-lg-5 min-vh-100 d-flex align-items-center" id="landing">
+		  <!-- Landing -->
+			<!-- Introduction Container -->
+				<div class="text-center">
+				 <div class="min-vh-100 d-flex align-items-center" id="landing">
 				 	<!-- Opening Page -->
 				 	 <div class="col-lg-12 p-0 min-vh-100 d-flex justify-content-center align-items-center opening">
 				 	 	<h1 class="text-light welcome" data-text="W E L C O M E"><span>W E L C O M E</span></h1>
 				 	 </div>
 				 	<!-- End of Opening Page -->
 
+				 	<!-- Landing Background Image -->
+				 	 <div class="landing-bg container-fluid"></div>
 
-				 	<div class="landing-bg container-fluid"></div>
 				 	<!-- Landing -->
 				 	 <div class="p-5 container-fluid main-container">
 				 	 	 <div class="main-land">
@@ -80,19 +81,19 @@
 				 	 		 <h3>Full-Stack Developer</h3>
 				 	 	 </div>
 				 	 </div>
-				 	 
 				 	<!-- End of Landing -->
-
 				 </div>
-				<!-- End of Introduction Container -->
+				</div>
+			<!-- End of Introduction Container -->
 
-			  <!-- About Me -->
-				<!-- Container -->
-				 <div class="card bg-secondary col-lg-12 d-lg-block p-0 rounded-0 container-fluid" id="about-me">
-				 	<div class="accordion" id="accordionExample">
+		  <!-- About Me -->
+			<!-- Container -->
+			 	<div class="text-center">
+				 <div class="card bg-secondary container-fluid p-5" id="about-me">
+				 	<div class="accordion" id="accordion">
 
 				 	  <!-- About Me Container -->
-				 	   <div class="card bg-dark mt-5 mb-5 m-md-5">
+				 	   <div class="card bg-dark m-3">
 				 	    <div class="card-header" id="headingOne">
 				 	      <h2 class="mb-0">
 				 	        <button class="btn btn-light btn-block text-center card-btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -101,7 +102,7 @@
 				 	      </h2>
 				 	    </div>
 
-				 	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				 	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 				 	      <div class="card-body min-vh-100 d-flex align-items-center">
 				 	      	<div class="background-image pb-5">
 	        				 <p id="motivation" class="offset-md-3 col-md-6 text-light p-5">I would want to be more knowledgeable in programming especially since I don't have any specialization yet when it comes to coding, so learning more about Web Development is a great motivation for me as my first specialization.</p>
@@ -119,16 +120,20 @@
 
 				 	</div>
 				 </div>
-				<!-- End of Container -->
+			 	</div>
+			<!-- End of Container -->
 
-			  <!-- Projects -->
-				<!-- Projects Container -->
-				 <div class="col-12 p-0" id="projects">
+
+
+		  <!-- Projects -->
+			<!-- Projects Container -->
+			 <div class="text-center">
+				 <div class="p-5" id="projects">
 
 					<!-- Projects Row -->
-					 <div class="text-light p-3 pt-5 pb-5 p-md-5">
-						<h2 class="mb-3 text-light" id="projects-title">Projects</h2>
-						<div class="d-lg-flex justify-content-center m-md-5">
+					 <div class="text-light m-3">
+						<h2 class="text-light" id="projects-title">Projects</h2>
+						<div class="d-lg-flex justify-content-center p-md-5">
 							<!-- Thesis Prototype Card -->
 		 		 	 	 	 <div class="card bg-secondary col-lg-4 mb-5 mb-lg-0 mr-5">
 		 		 	 	 	  <div class="card-body">
@@ -171,15 +176,18 @@
 					 </div>
 					<!-- End of Projects Row -->
 				 </div>
-				<!-- End of Projects Container --> 
+			 </div>
+			<!-- End of Projects Container --> 
 
-			  <!-- Tools -->
-			   <!-- Tools Container -->
-				 <div class="col-12 p-0" id="tools">
+
+		  <!-- Tools -->
+		   <!-- Tools Container -->
+			 <div class="text-center">
+				 <div class="p-5" id="tools">
 
 				 	<!-- Carousel Section -->
-	 		 	 	 <div class=" d-md-block mt-5 mb-5">
-	 		 	 		<div class="offset-lg-3 col-lg-6">
+	 		 	 	 <div class="d-md-block m-3">
+	 		 	 		<div class="offset-lg-2 col-lg-8">
 	 		 	 			<div id="carouselCaptions" class="carousel slide" data-ride="carousel">
 	 		 	 			  <ol class="carousel-indicators">
 	 		 	 			    <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
@@ -194,27 +202,27 @@
 	 		 	 			      	<!-- Tools Column -->
 	 		 	 			      	 <div class="tools-container d-flex flex-column">
 	 		 	 			      	     <div class="d-flex justify-content-center row">
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img width="150" class="img-fluid" src="images/logo-html5.png"/>
 	 		 	 			      	         	<p>HTML5</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img width="150" class="img-fluid" src="images/logo-css3.png"/>
 	 		 	 			      	         	<p>CSS 3</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img width="150" class="img-fluid" src="images/logo-javascript.png"/>
 	 		 	 			      	         	<p>Javascript</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img width="150" class="img-fluid" src="images/logo-bootstrap.png"/>
 	 		 	 			      	         	<p>Bootstrap</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img width="150" class="img-fluid" src="images/logo-gitlab-ci-cd.png"/>
 	 		 	 			      	         	<p>GitLab</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img width="150" class="img-fluid" src="images/logo-sublime-text-3.png"/>
 	 		 	 			      	         	<p>Sublime Text 3</p>
 	 		 	 			      	         </div>
@@ -232,23 +240,23 @@
 	 		 	 			      	<!-- Other Services Tools Column -->
 	 		 	 			      	 <div class="tools-container d-flex flex-column">
 	 		 	 			      	     <div class="d-flex justify-content-center row align-items-center">
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img height="150" class="img-fluid" src="images/logo-arduino.png"/>
 	 		 	 			      	         	<p>Arduino</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img height="150" class="img-fluid" src="images/logo-android-studio.png"/>
 	 		 	 			      	         	<p>Android Studio</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img height="150" class="img-fluid" src="images/logo-visual-studio.png"/>
 	 		 	 			      	         	<p>Visual Studio</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img height="150" class="img-fluid" src="images/logo-raspberry-pi.png"/>
 	 		 	 			      	         	<p>Raspberry Pi</p>
 	 		 	 			      	         </div>
-	 		 	 			      	         <div class="container col-6 col-md-6 col-xl-4">
+	 		 	 			      	         <div class="container col-6 col-md-6">
 	 		 	 			      	         	<img height="150" class="img-fluid" src="images/logo-py-charm.png"/>
 	 		 	 			      	         	<p>PyCharm</p>
 	 		 	 			      	         </div>
@@ -275,12 +283,16 @@
 		 		 	<!-- End of Carousel Section -->
 				 	
 				 </div>
-			   <!-- End of Tools Container -->
+			 </div>
+		   <!-- End of Tools Container -->
 
-			  <!-- Contact Me -->
-				<!-- Contact Me Container -->
-				 <div class="col-12 p-5 p-md-0 container-fluid" id="contact">
-				 	<div class="text-light p-md-5">
+
+
+		  <!-- Contact Me -->
+			<!-- Contact Me Container -->
+			 <div class="text-center">
+				 <div class="col-12 p-5 container-fluid" id="contact">
+				 	<div class="text-light mt-3">
 				 		<h2 id="contact-title" class="text-dark">Contact Me</h2>
 
 				 		<!-- Contact Me Column -->
@@ -356,10 +368,9 @@
 
 				 	</div>
 				 </div>
-				<!-- End of Contact Me Container -->
+			 </div>
+			<!-- End of Contact Me Container -->
 
-			</div>
-		 </div>
 		<!-- End of Webpage Content -->
 
 		<!-- Footer -->
@@ -382,6 +393,8 @@
             <span class="p-3 d-flex justify-content-center">&copy; 2023 Zuitt. All Rights Reserved.</span>
          </footer>
         <!-- End of Footer -->
+        
+     </div>
 
 		<!-- Bootstrap JS Server Bundle -->
 		 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
